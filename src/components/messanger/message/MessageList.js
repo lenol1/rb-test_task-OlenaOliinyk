@@ -7,7 +7,7 @@ const MessageList = ({ messages, userId }) => {
     const { selectedChat } = useChat();
     const messagesEndRef = useRef(null);
     const { toastMessage, showToast, hideToast } = useToast();
-    const lastMessageRef = useRef(null);
+    const lastMessageRef = useRef(null); 
 
     useEffect(() => {
         if (messagesEndRef.current) {
@@ -17,7 +17,7 @@ const MessageList = ({ messages, userId }) => {
         if (messages.length > 0) {
             const latestMessage = messages[messages.length - 1];
 
-            if (latestMessage.person._id === userId && latestMessage !== lastMessageRef.current) {
+            if (latestMessage.senderId !== userId && latestMessage !== lastMessageRef.current) {
                 showToast(`"${latestMessage.text}"`);
                 lastMessageRef.current = latestMessage;
             }
@@ -36,13 +36,9 @@ const MessageList = ({ messages, userId }) => {
         return new Date(timestamp).toLocaleString('en-US', options);
     };
 
-    const filteredMessages = messages.filter(
-        (message) => message.person._id === userId 
-    );
-
     return (
         <div className="messages-container">
-            {filteredMessages.map((message) => (
+            {messages.map((message) => (
                 <div key={message._id} className={`message ${message.autoAnswer !== 1 ? 'sent' : 'received'}`}>
                     {message.autoAnswer !== 1 ? (
                         <div className="message-content">
