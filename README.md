@@ -3,20 +3,33 @@ This application provides a user-friendly chat management system with various fe
 
 ## Key Features:
 - Log In / Sign Up
+
   Authentication via Google account for seamless access.
+  
 - Automated Chat Creation
+  
   Three predefined chats are automatically created upon logging in.
+  
 - Chat Search & Creation
+  
   Search for chats by first and last name.
   If no matching chat is found, a button appears to create a new one.
+  
 - Chat Editing
+  
   Modify chat details, including first name, last name, and profile picture.
+  
 - Chat Deletion
+  
   Delete chats with a confirmation prompt to prevent accidental removal.
+  
 - Message Management
+  
   Send messages to selected chats.
   Receive automated random responses from the Quotable API.
+  
 - Toast Notifications
+  
   Get notified about the last message sent with a toast notification.
 
 ## Looks Like:
