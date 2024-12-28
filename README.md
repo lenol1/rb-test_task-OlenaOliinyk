@@ -30,14 +30,17 @@ This application provides a user-friendly chat management system with various fe
 
 ## Creation of the new chat:
 ![image](https://github.com/user-attachments/assets/62d00991-f13b-47ee-a119-ec5814595e87)
+So the new chat appears in the end of the list.
 ![image](https://github.com/user-attachments/assets/b8c298ee-5b3f-45e1-9e6f-e24541153918)
 
 ## Editing:
 ![image](https://github.com/user-attachments/assets/fddd4e3e-b197-441a-8dbb-0152dd5c8d4e)
+The chat name and image will be changed.
 ![image](https://github.com/user-attachments/assets/20547405-048d-4f14-9f21-45676effafe0)
 
 ## Deleting:
 ![image](https://github.com/user-attachments/assets/236a7d43-db70-4b23-86f9-89c06fcf6d7b)
+The sample chat, which was created 2 steps above, will be deleted.
 ![image](https://github.com/user-attachments/assets/6e3c41af-0f13-482a-a8df-2b2c92c42e76)
 
 ## Send message and auto response:
