@@ -48,7 +48,7 @@ So the new chat appears in the end of the list.
 
 ## Editing:
 ![image](https://github.com/user-attachments/assets/fddd4e3e-b197-441a-8dbb-0152dd5c8d4e)
-The chat name and image will be changed.
+The chat's last name and image will be changed.
 ![image](https://github.com/user-attachments/assets/20547405-048d-4f14-9f21-45676effafe0)
 
 ## Deleting:
