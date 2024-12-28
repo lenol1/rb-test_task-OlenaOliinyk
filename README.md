@@ -51,6 +51,7 @@ This application provides a user-friendly chat management system with various fe
 To run the application, I used two separate consoles for the client and server parts. Navigate to the respective directories using the following paths:
 - Client: project
 - Server: project/backend
+
 Then, run the command `npm start` in each console.
 
 # Getting Started with Create React App (Basic Stuff)
