@@ -1,0 +1,32 @@
+.chat-picture {
+    text-align: center;
+    margin: 20px;
+}
+
+.icon-grid {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+    margin: 20px auto;
+    width: 80%;
+}
+
+.icon-item {
+    padding: 10px;
+    border: 2px solid transparent;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: border-color 0.3s;
+}
+
+.icon-item img {
+    width: 100%;
+    height: auto;
+    max-width: 50px;
+}
+
+.icon-item.selected {
+    border-color: #77bbd3;
+}

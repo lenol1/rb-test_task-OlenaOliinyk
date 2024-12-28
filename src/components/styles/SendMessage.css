@@ -1,0 +1,32 @@
+.input-container {
+    padding: 10px;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    background-color: rgb(240, 240, 240);
+    border-top: 1px solid #ddd;
+    box-sizing: border-box;
+}
+
+#messageInput {
+    flex: 1;
+    border-radius: 10px;
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-right: 10px;
+}
+
+.send-button {
+    position: absolute;
+    right: 20px;
+    margin-top: 5px;
+    display: flex;
+    background: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+#sendIcon {
+    width: 35px;
+    height: 35px;
+}

@@ -1,0 +1,35 @@
+h3 {
+    color: rgb(119, 187, 211);
+    font-weight: normal;
+}
+
+.Appboxes {
+    color: grey;
+    display: flex;
+    vertical-align: top;
+    line-height: 1;
+    margin-left: 0px;
+    width: 100%;
+}
+
+.Appboxes>div:first-child {
+    width: 40%;
+}
+
+#mainHeader {
+    background-color: rgb(240, 240, 240);
+    width: 100%;
+    margin-left: 0px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#chatListHeader {
+    display: flex;
+    align-items: center;
+}
+
+#messageBlock {
+    border-left: 0.1px solid rgba(185, 185, 185, 0.8);
+    flex: 1;
+}

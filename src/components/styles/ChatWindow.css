@@ -1,0 +1,28 @@
+.chat_list {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    background-color: rgba(185, 185, 185, 0.8);
+    border-top: 0.1px solid rgba(185, 185, 185, 0.8);
+}
+
+.receiver {
+    position: relative;
+    padding-top: 5px;
+    padding-bottom: 10px;
+    background-color: rgb(240, 240, 240);
+}
+
+.receiver::before {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    width: calc(100%);
+    border-bottom: 0.1px solid rgba(185, 185, 185, 0.8);
+}
+.chat-window {
+    display: flex;
+    flex-direction: column;
+    height: 100vh; 
+    overflow: hidden;
+}

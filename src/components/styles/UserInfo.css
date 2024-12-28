@@ -1,0 +1,34 @@
+#userInfo {
+    display: flex;
+    align-items: center;
+}
+
+#container {
+    display: flex;
+    align-items: center;
+}
+
+#container:last-child {
+    margin-left: auto;
+}
+
+#userIcon {
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    margin-left: 10px;
+}
+
+#onlineUser {
+    position: relative;
+    width: 20px;
+    top: 15px;
+    left: -15px;
+    margin-left: 10px;
+}
+
+#userName {
+    display: flex;
+    margin-top: 5px;
+    margin-left: -10px;
+}

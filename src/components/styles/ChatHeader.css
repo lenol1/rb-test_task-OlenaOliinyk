@@ -1,0 +1,14 @@
+.chatHeader {
+    display: flex;
+    align-items: center;
+    height: 50px;
+}
+
+.chatHeader img {
+    margin-left: 10px;
+}
+
+#chatHeader {
+    font-size: 1.2em;
+    font-weight: bold;
+}

@@ -1,0 +1,41 @@
+.removeChat {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgb(240, 240, 240);
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 4px 2px 10px rgba(0, 0, 0, 0.6);
+    z-index: 1000;
+    width: 500px;
+}
+
+#confirm{
+    background-color: rgb(175, 76, 76);
+    color: rgb(255, 255, 255);
+    border: none;
+    display: flex;
+}
+
+#editChat button:disabled {
+    background-color: rgb(221, 221, 221);
+    cursor: not-allowed;
+}
+
+.confirmationButtons{
+    display: flex;
+    align-items: center;
+    position: relative;
+    justify-content: center;
+    gap: 30px;
+}
+
+button{
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+h2{
+    padding-bottom: 20px;
+}

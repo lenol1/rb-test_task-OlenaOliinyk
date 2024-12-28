@@ -1,0 +1,108 @@
+.chat-item:hover {
+    background-color: #f5f5f5;
+}
+
+.chat-item {
+    margin: 0;
+    padding: 15px;
+    border-radius: 8px;
+    background: #f9f9f9;
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+    border-bottom: 0.1px solid rgba(185, 185, 185, 0.8);
+}
+
+.chat-item h2 {
+    margin-left: 0;
+    font-size: 1.2rem;
+}
+
+.chat-list h3 {
+    margin-left: 10px;
+}
+
+.chat-item.selected {
+    background-color: rgb(230, 230, 230);
+    border-left: 2px solid rgba(204, 201, 201, 0.8);
+    cursor: pointer;
+}
+
+.chat-list {
+    overflow-y: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+#chatDate {
+    margin-left: auto;
+    font-size: 0.7em;
+    text-align: right;
+    margin-bottom: 10px;
+    width: 70px;
+}
+
+.defaultData {
+    height: 60px;
+    width: 350px;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    position: relative;
+    overflow: hidden;
+    margin-left: 5px;
+}
+
+#userData {
+    position: relative;
+    top: 0;
+    right: 0;
+    width: 100%;
+    font-size: 1.0em;
+    color: rgb(0, 0, 0, 0.8);
+}
+
+#lastMessage {
+    position: relative;
+    margin-right: auto;
+    font-size: 0.8em;
+    text-align: start;
+    margin-top: 1px;
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+            line-clamp: 3; 
+    -webkit-box-orient: vertical;
+}
+
+.editForm{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+.editButton {
+    background-color: transparent;
+    border-color: transparent;
+    padding: 0;
+    cursor: pointer;
+}
+
+#edit {
+    width: 20px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+}
+
+.chatController {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 3px;
+}
+
+.chat-icon {
+    width: 20px;
+    height: 20px;
+    margin: 0;
+}
